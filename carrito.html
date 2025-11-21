@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Celulares</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="carrito.css">
+    <script src="helados.js"></script>
+    <script src="carritoService1.js" defer></script>
+    <script src="carrito.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="Logo" id="logo"></a>
+            <div>
+                <a href="#">Mi Curriculum</a>
+                <a href="#">Mis Deportes</a>
+                <a href="carrito.html" id="cart"><img src="img/carrito.png" alt=""><span id="cuenta-carrito">0</span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p id="carrito-vacio">Ups! El carrito esta vacío, <a href="index.html">elige algunos productos...</a></p>
+        <section id="cart-container">
+        </section>
+        <section id="totales">
+            <p>Total Unidades: <span id="cantidad">0</span></p>
+            <p>Total Precio: <span id="precio">0</span> $</p>
+            <button disabled>Comprar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+    <footer>
+        <p>INTJEM <a href="https://intjem.edu.bo/" target="_blank">INTJEM</a></p>
+    </footer>
+</body>
+</html>

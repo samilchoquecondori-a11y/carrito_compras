@@ -1,0 +1,60 @@
+#cart-container{
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+.tarjeta-producto{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+    padding: 10px;
+}
+.tarjeta-producto img{
+    height: 100%;
+    border-radius: 10px;
+    border: double 5px orange;
+}
+.tarjeta-producto h3{
+    width: 130px;
+}
+.tarjeta-producto div{
+    background-color: var(--color-acento-claro);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px black;
+    text-align: center;
+}
+.tarjeta-producto div button{
+    width: 30px;
+    height: 20px;
+}
+.tarjeta-producto div button:hover{
+    color: var(--color-acento);
+    background-color: white;
+    border: solid 1px black;
+}
+#totales{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#totales button{
+    margin: 5px;
+    padding: 15px;
+    font-size: medium;
+    background-color: var(--color-acento);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+#totales button:hover{
+    color: var(--color-acento);
+    background-color: white;
+}
+#carrito-vacio{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+}
